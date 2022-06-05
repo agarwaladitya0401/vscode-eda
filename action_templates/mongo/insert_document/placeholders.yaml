@@ -1,0 +1,29 @@
+---
+name:
+  label: Name
+  type: string
+  description: Action class name
+pack:
+  label: Pack
+  type: string
+  description: Pack Name
+description:
+  label: Description
+  type : string
+  description: Description about the action
+runner_type:
+  label: Runner Type
+  type: string
+  description: Runner Type
+entry_point:
+  label: Entry point
+  type: string
+  description: File Name
+enabled:
+  label: Enable
+  type: boolean
+  description: Enable this checkbox to enable the action
+parameters:
+  label: Parameters
+  type: object
+  description: parameters
